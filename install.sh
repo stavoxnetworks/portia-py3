@@ -4,7 +4,7 @@
 apt-get update
 apt-get install -y autoconf automake autopoint libtool pkg-config
 
-virtualenv -p python2 portia
+virtualenv -p python3 portia
 source portia/bin/activate
 pip install pysmb tabulate termcolor xmltodict pyasn1 pycrypto pyOpenSSL dnspython netaddr nmap pymssql
 
